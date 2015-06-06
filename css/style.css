@@ -1,0 +1,232 @@
+* {
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+	font-family: Georgia, Times, 'Times New Roman', serif; 
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+}
+
+h1 {
+	font-size: 36px;
+	line-height: 1.2;
+}
+h2 {
+	font-size: 25px;
+	line-height: 1.2;
+}
+p {
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 20px;
+	margin-bottom: 20px; 
+}
+
+a {
+	text-decoration: none;
+	color: #1abc9c;
+}
+
+blockquote {
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 30px;
+}
+pre {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18.5714302062988px;
+}
+
+section { 
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/* Navbar */
+#header-title {
+	float: left;
+	padding-top: 15px;
+	margin-bottom: 0px;
+}
+
+#header-nav {
+	float: right;
+}
+
+#header-nav li {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#header-nav li a {
+	display: block;
+	padding: 15px;
+}
+
+#header-nav li a:hover {
+	background-color: #ecf0f1;
+	color: #660066;
+
+}
+/* Top Section Styling */
+
+#top {
+	font-family: Papyrus, fantasy;
+	text-align: center;
+	background-color: #1abc9c;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: url("../images/strawberry.jpg") no-repeat center center;
+	background-size: cover; 
+}
+
+#top h1 {
+	color: #8e44ad; 
+	font-weight: 800;
+}
+
+#top h2 {
+	color: #ecf0f1;
+	font-weight: 200;
+}
+/* Universal */
+
+.container {
+	width: 970px;
+	margin: 0 auto;
+}
+
+.skinny {
+	font-weight: 100;
+	color: #fefefe;
+}
+
+.btn {
+	background-color: #0099CC;
+	border: 1px solid #blue;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: #FFFF99;
+}
+
+.btn:hover {
+	background-color: #e67e22;
+}
+
+/* Middle Section */
+#me-image {
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	height: 215px;
+	width: 150px
+}
+#me-image img {
+	border-radius: 10px;
+}
+
+/* Bottome Section */
+#bottom {
+	background-color: #C299C2;
+	text-align: center;
+}
+
+#bottom h2 {
+	font-family: Papyrus, fantasy;
+	text-align: center;
+	font-size: 32px;
+	font-weight: 600;
+}
+
+#bottom h3 {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+	margin-top: 20px;
+	margin-bottom: 10px; 
+}
+
+#bottom img {
+	max-height: 150px;
+	border-radius: 10px;
+
+}
+
+.one-half {
+	width: 48%;
+	background-color: #fefefe;
+	/* border: 1px solid #ccc; */
+	/* float: left; */
+	border: 1px solid #ececec;
+	display: inline-block;
+	padding: 30px 20px;
+	margin: 1%;
+	vertical-align: top;
+}
+
+/* Contact Info */
+#contact {
+	text-align: center;
+}
+#contact img {
+	max-height: 100px;
+	border-radius: 10px;
+}
+
+#contact-nav li {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 20px;
+}
+
+
+/* Footer */
+#footer{
+	background-color: #DADADA;
+}
+
+#footer h4 {
+	text-align: center;
+}
+/* Project Page */
+#projects {
+	padding-top: 30px;
+}
+
+#projects article {
+	width: 33.333%;
+	border: 1px solid #e9e9e9;
+	border-radius: 5px;
+}
+
+#projects article img {
+	max-width: 100%;
+	border-top-left-radius: 5px; 
+	border-top-right-radius: 5px; 
+}
+ #projects h4 {
+ 	padding: 7px;
+ 	font-size: 18px;
+ 	font-weight: bold;
+
+ }
+ #projects p {
+ 	padding: 7px;
+ }
+
+/* Clear fix */
+.row:before,
+.row:after, .clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+.row:after, .clearfix:after{
+	clear:both;
+}
+.row, .clearfix{
+	zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
